@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ColliderShapes">
+      <UniqueIdentifier>{d9f9ef11-39ad-4595-95a7-dfa133e8aa9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ColliderShapes">
+      <UniqueIdentifier>{78770ec4-dd22-46c2-9b34-1c76c0ee2985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBroadPhase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsNarrowPhase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderShape.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexPolygon.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pill.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMass.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Source Files\ColliderShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Polynomials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpulseStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsNarrowPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBroadPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderShape.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexPolygon.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pill.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="PointMass.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files\ColliderShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Polynomials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsHelperFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpulseStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
